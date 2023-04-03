@@ -1,0 +1,4 @@
+com/pirai/restapi/RESTAPI/repos/ProductRepository.class
+com/pirai/restapi/RESTAPI/entity/Product.class
+com/pirai/restapi/RESTAPI/controller/ProductRestController.class
+com/pirai/restapi/RESTAPI/RestapiApplication.class

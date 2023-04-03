@@ -1,0 +1,4 @@
+com/pirai/example/bean/HelloBean.class
+com/pirai/example/commandline/OptionAndNonOptionArgs.class
+com/pirai/example/runner/HelloRunner.class
+com/pirai/example/ExampleProjectApplication.class

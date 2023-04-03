@@ -1,0 +1,4 @@
+com/online/shopping/dto/UserRegistration.class
+com/online/shopping/repo/UserRegistratonRepo.class
+com/online/shopping/controller/UserRegistrationController.class
+com/online/shopping/OnlineShoppingApplication.class

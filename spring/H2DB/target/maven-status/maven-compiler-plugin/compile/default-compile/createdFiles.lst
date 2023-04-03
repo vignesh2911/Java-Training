@@ -1,0 +1,4 @@
+com/pirai/repo/StudentRepository.class
+com/pirai/H2DbApplication.class
+com/pirai/entity/Student.class
+com/pirai/controller/StudentController.class
