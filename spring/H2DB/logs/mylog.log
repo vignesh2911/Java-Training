@@ -1,0 +1,50 @@
+2023-03-23 17:03:42.303  INFO 20989 --- [restartedMain] com.pirai.H2DbApplication                : Starting H2DbApplication using Java 17.0.6 on PI-IN-L38 with PID 20989 (/home/User-L38/Spring boot/H2DB/target/classes started by User-L38 in /home/User-L38/Spring boot/H2DB)
+2023-03-23 17:03:42.306  INFO 20989 --- [restartedMain] com.pirai.H2DbApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:03:42.371  INFO 20989 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:03:42.371  INFO 20989 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:03:42.941  INFO 20989 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 17:03:42.990  INFO 20989 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-03-23 17:03:43.608  INFO 20989 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:03:43.618  INFO 20989 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-23 17:03:43.618  INFO 20989 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-23 17:03:43.680  INFO 20989 --- [restartedMain] o.a.c.c.C.[.[localhost].[/vignesh]       : Initializing Spring embedded WebApplicationContext
+2023-03-23 17:03:43.680  INFO 20989 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2023-03-23 17:03:43.714  INFO 20989 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-23 17:03:43.918  INFO 20989 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-23 17:03:43.934  INFO 20989 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d620eddf-dc37-4550-a1a5-a58989707215'
+2023-03-23 17:03:44.103  INFO 20989 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 17:03:44.148  INFO 20989 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-23 17:03:44.304  INFO 20989 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-23 17:03:44.415  INFO 20989 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-23 17:03:44.837  INFO 20989 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 17:03:44.846  INFO 20989 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:03:45.106  WARN 20989 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 17:03:45.432  INFO 20989 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-23 17:03:45.468  INFO 20989 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/vignesh'
+2023-03-23 17:03:45.489  INFO 20989 --- [restartedMain] com.pirai.H2DbApplication                : Started H2DbApplication in 3.582 seconds (JVM running for 4.335)
+2023-03-23 17:05:59.509  INFO 21114 --- [main] com.pirai.H2DbApplicationTests           : Starting H2DbApplicationTests using Java 17.0.6 on PI-IN-L38 with PID 21114 (started by User-L38 in /home/User-L38/Spring boot/H2DB)
+2023-03-23 17:05:59.514  INFO 21114 --- [main] com.pirai.H2DbApplicationTests           : The following 1 profile is active: "prod"
+2023-03-23 17:06:00.762  INFO 21114 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 17:06:00.857  INFO 21114 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-03-23 17:06:01.997  INFO 21114 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-23 17:06:02.355  INFO 21114 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-23 17:06:02.463  INFO 21114 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 17:06:02.537  INFO 21114 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-23 17:06:02.740  INFO 21114 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-23 17:06:02.928  INFO 21114 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-23 17:06:03.787  INFO 21114 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 17:06:03.802  INFO 21114 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:06:04.418  WARN 21114 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 17:06:05.265  INFO 21114 --- [main] com.pirai.H2DbApplicationTests           : Started H2DbApplicationTests in 6.437 seconds (JVM running for 7.736)
+2023-03-23 17:06:05.566  INFO 21114 --- [main] com.pirai.controller.StudentController   : BaseURL: http://prodserver:8080/vignesh/student/
+2023-03-23 17:06:05.605  INFO 21114 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:06:05.607  INFO 21114 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-23 17:06:05.613  INFO 21114 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-23 17:06:05.617  INFO 21114 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-23 17:10:02.203  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-23 17:10:02.223  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-23 17:10:02.237  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:10:02.238  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-23 17:10:02.448  WARN 20989 --- [RMI TCP Connection(14)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-03-23 17:10:02.451  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-23 17:10:02.461  INFO 20989 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
